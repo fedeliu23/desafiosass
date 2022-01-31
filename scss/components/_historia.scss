@@ -1,0 +1,15 @@
+/* Historia del taller */
+
+
+h3 {
+    @extend %titulos;
+    @extend %flex;
+}
+
+section {
+    p {
+        @extend %parrafo1;
+    }
+}
+
+/* Fin historia taller */

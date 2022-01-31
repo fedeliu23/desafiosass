@@ -1,0 +1,9 @@
+div {
+
+    h2 {
+        @extend %h2;
+        img {
+            @extend %camion;
+        }   
+    }
+}

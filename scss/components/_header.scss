@@ -1,0 +1,50 @@
+header {
+        @extend %menu-container;
+        @extend %text-nav;
+    div {
+        a {
+            img {
+                @extend %logo;
+            }
+        }
+    }
+    nav {
+        @extend %text-nav;
+        div {
+            @extend %text-nav;
+            a{
+                @extend %text-nav;
+            }
+        }
+        div {
+            @extend %text-nav;
+            a {
+                @extend %text-nav;
+            }
+        }
+        div {
+            @extend %text-nav;
+            a {
+                @extend %text-nav;
+            }
+        }
+        div {
+            @extend %text-nav;
+            a {
+                @extend %text-nav;
+            }
+        }
+        div {
+            @extend %text-nav;
+            a {
+                @extend %text-nav;
+            }
+        }
+        div {
+            @extend %text-nav;
+            a {
+                @extend %text-nav;
+            }
+        }
+    }
+}

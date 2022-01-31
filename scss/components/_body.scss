@@ -1,0 +1,23 @@
+body {
+    
+    
+    @media only screen and (min-width: 969px) {
+        .grid-container { 
+            background-color: #656256;
+        }
+    }
+    
+    @media only screen and (min-width: 481px) and (max-width: 968px) {
+        .grid-container {
+            background-color: rgb(30, 194, 93);
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .grid-container {
+            background-color: rgb(139, 20, 114);
+            
+        }
+  }
+    background-color: darken($gris, 15%);
+}

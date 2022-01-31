@@ -1,0 +1,77 @@
+h3 {
+    @extend %titulos;
+    @extend %flex;
+    a {
+
+    }
+}
+
+section {
+    @extend %grid-container;
+    div {
+        @extend %grid-uno;
+        img {
+            @extend %proyectando;
+        }
+    }
+    div {
+        @extend %grid-dos;
+        a {
+            img {
+                @extend %taladro;
+                p {
+
+                }
+            }
+        }
+    }
+    div {
+        @extend %grid-tres;
+        a {
+            img {
+                @extend %muebles;
+                p {
+                    $width: 350px;
+                    $height: 100px;
+                }        
+            }
+        }
+    }
+    div {
+        @extend %grid-cuatro;
+        a {
+            img {
+                @extend %muebles;
+                p {
+                    $width: 350px;
+                    $height: 100px;
+                }
+            }
+        }
+    }
+    div {
+        @extend %grid-cinco;
+        a {
+            img {
+                @extend %muebles;
+                p {
+                    $width: 350px;
+                    $height: 100px;
+                }
+            }
+        }
+    }
+    div {
+        @extend %grid-seis;
+        a {
+            img {
+                @extend %muebles;
+                p {
+                    $width: 350px;
+                    $height: 100px;
+                }
+            }
+        }
+    }
+
+}
