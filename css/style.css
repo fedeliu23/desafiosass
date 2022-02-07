@@ -1,138 +1,270 @@
-/* Historia del taller */
-/* Fin historia taller */
-/* Comienzo footer */
-/* Fin footer */
-h3 {
-  color: #f3eaea;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding: 20px;
+ul, * {
+  padding: 0;
+  margin: 0;
 }
 
-h3, footer iframe {
-  display: flex;
-  justify-content: center;
+.m-1 {
+  margin: 8px;
 }
 
-header {
-  background-color: #828F7B;
-  padding: 20px 0;
-  position: sticky;
-  top: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.m-2 {
+  margin: 16px;
 }
 
-header, header nav, header nav div, header nav div a {
-  list-style-type: none;
-  text-decoration: none;
-  color: #02021f;
+.m-3 {
+  margin: 24px;
 }
 
-header div a img {
-  width: 200px;
+.m-4 {
+  margin: 32px;
+}
+
+.m-5 {
+  margin: 40px;
+}
+
+.m-6 {
+  margin: 48px;
+}
+
+.m-7 {
+  margin: 56px;
+}
+
+.m-8 {
+  margin: 64px;
+}
+
+.m-9 {
+  margin: 72px;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.p-3 {
+  padding: 24px;
+}
+
+.p-4 {
+  padding: 32px;
+}
+
+.p-5 {
+  padding: 40px;
+}
+
+.p-6 {
+  padding: 48px;
+}
+
+.p-7 {
+  padding: 56px;
+}
+
+.p-8 {
+  padding: 64px;
+}
+
+.p-9 {
+  padding: 72px;
+}
+
+.py-1 {
+  padding: 8px 0;
+}
+
+.py-2 {
+  padding: 16px 0;
+}
+
+.py-3 {
+  padding: 24px 0;
+}
+
+.py-4 {
+  padding: 32px 0;
+}
+
+.py-5 {
+  padding: 40px 0;
+}
+
+.py-6 {
+  padding: 48px 0;
+}
+
+.py-7 {
+  padding: 56px 0;
+}
+
+.py-8 {
+  padding: 64px 0;
+}
+
+.py-9 {
+  padding: 72px 0;
+}
+
+.w-1 {
+  width: 25%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 75%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee590;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: white;
+  margin: 100px auto;
+  width: 1280px;
+  padding: 50px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  background-image: url(../../imagenes/madera.png);
+  background-size: 100% 100%;
+}
+
+.logo .logo-arbet {
+  width: 150px;
   height: 150px;
+  border-radius: 600px;
   display: flex;
   justify-content: start;
 }
 
-div h2 {
-  background-color: antiquewhite;
-  color: #070731;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 27px;
+header nav {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  padding: 5px;
-  margin: 20px;
+  justify-content: space-between;
 }
 
-div h2 img {
-  width: 75px;
-  height: 75px;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-section {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "proyecto proyecto proyecto" "comoda rack sorteo" "vajillero escritorio sorteo";
-  place-items: center;
+.btn.btn-cta {
+  background-color: #eee590;
+  color: black;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder;
+}
+.btn.btn-cta:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder;
+  box-shadow: 0 2px 10px 0 rgba 0, 0, 0, 0.6;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder;
+  box-shadow: 0 2px 10px 0 rgba 0, 0, 0, 0.6;
+}
+
+ul {
+  list-style: none;
+  display: flex;
   gap: 20px;
-  position: relative;
-  border: 3px solid #f3eaea;
-  color: #f3eaea;
-  font-style: italic;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding: 20px 0px;
+}
+ul li a {
+  background-color: white;
+  color: #aaa;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 2px 10px 0 rgba 0, 0, 0, 0.6;
 }
 
-section div {
-  grid-area: proyecto;
-  justify-content: center;
+h2 {
+  font-weight: bolder;
+  font-size: 48px;
 }
 
-section div img {
-  width: 98%;
-  height: 250px;
+h3 {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.precios .antes {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #aaa;
+  text-decoration: line-through;
+}
+.precios .ahora {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+.row .col {
+  width: 50%;
+}
+.row .col-30 {
+  width: 30%;
+}
+.row .col-70 {
+  width: 70%;
+}
+.row .col-70 .rack {
   border: solid;
 }
 
-section div {
-  grid-area: sorteo;
-}
-
-section div a img {
-  width: 400px;
-  height: 600px;
-  border: solid #f3eaea;
-}
-
-section div {
-  grid-area: comoda;
-}
-
-section div a img {
-  width: 350px;
-  height: 150px;
-  border: solid;
-}
-
-section div {
-  grid-area: rack;
-}
-
-section div {
-  grid-area: vajillero;
-}
-
-section div {
-  grid-area: escritorio;
-}
-
-section p {
-  color: #f3eaea;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  line-height: 40px;
-  padding: 20px 0px;
-}
-
-footer {
-  margin: 0 10px;
-  width: 50px;
-  height: 50px;
-  align-items: flex-end;
-}
-
-footer div ul li a img {
-  margin: 0 10px;
-  width: 50px;
-  height: 50px;
-  align-items: flex-end;
+.m-auto {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

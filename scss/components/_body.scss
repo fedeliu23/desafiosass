@@ -1,23 +1,19 @@
-body {
-    
-    
-    @media only screen and (min-width: 969px) {
-        .grid-container { 
-            background-color: #656256;
-        }
-    }
-    
-    @media only screen and (min-width: 481px) and (max-width: 968px) {
-        .grid-container {
-            background-color: rgb(30, 194, 93);
-        }
-    }
+* {
+    @extend %reset-pm; 
+    box-sizing: border-box;
+}
 
-    @media only screen and (max-width: 480px) {
-        .grid-container {
-            background-color: rgb(139, 20, 114);
-            
-        }
-  }
-    background-color: darken($gris, 15%);
+body {
+    background-color: $primary-color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    margin: 100px auto;
+    width: 1280px;
+    padding: 50px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+    background-image: url(../../imagenes/madera.jpg);
+    background-size: 100% 100%;
 }

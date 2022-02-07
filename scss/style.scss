@@ -1,9 +1,7 @@
-@import 'components/header';
-@import 'components/anuncio';
-@import 'components/productos';
-@import 'components/historia';
-@import 'components/footer';
 @import 'base/extends.scss';
 @import 'base/variables';
-@import 'base/mixins';
-@import 'base/colores';
+@import 'base/utils';
+@import 'components/body';
+@import 'components/header';
+@import 'components/main';
+
